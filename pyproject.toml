@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "computer-learning"
+version = "0.0.1"
+description = ""
+authors = ["Charles Carlson <c.bayardcarlson@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python-learning"}]
+
+[tool.poetry.dependencies]
+python = "^3.11.3"
+black = "^23.1.0"
+numpy = "^1.24.2"
+pyspark = "^3.3.2"
+pandas = "^1.5.3"
+
